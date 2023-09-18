@@ -1,6 +1,6 @@
 # This affects only the PDF and HTML downloader.
 # Scraping the IDs and parsing the files is single threaded.
-THREADS = 1
+THREADS = 15
 
 # The folder where the HTML and PDF files will be saved.
 DATA_DIR = './DATA/'
